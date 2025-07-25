@@ -51,17 +51,25 @@ The notebook `analysis_model.ipynb` handles:
 ## ⚙️ Installation
 
 1. Clone the repository:
-   git clone <your-repo-url>
-   cd <project-folder>
-
+   ```bash
+   git clone https://github.com/akhilamurarka/Fraud-Detection.git
+   
+   cd Fraud-Detection
+  
 2. Install dependencies:
+  ```
    pip install -r requirements.txt
+   ```
 
    If `requirements.txt` is not available, install manually:
+   ```
    pip install streamlit joblib scikit-learn numpy pandas
+   ```
 
 3. Run the app:
+  ```
    streamlit run fraud_detection.py
+   ```
 
 ## 💡 Example Input
 
